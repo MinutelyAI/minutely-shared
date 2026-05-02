@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup"
 
 export default defineConfig({
-  entry: ["src/index.ts", "src/api/index.ts", "src/ui/index.ts", "src/utils/index.ts", "src/tokens/index.ts"],
+  entry: ["src/index.ts", "src/api/index.ts", "src/ui/index.ts", "src/utils/index.ts", "src/tokens/index.ts", "src/hooks/use-mobile.tsx"],
   format: ["cjs", "esm"],
   dts: true,
   clean: true,
