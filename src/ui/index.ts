@@ -24,3 +24,5 @@ export * from "./sheet";
 export * from "./sidebar";
 export * from "./skeleton";
 export * from "./time-picker";
+export * from "./tabs";
+export * from "./scroll-area";
